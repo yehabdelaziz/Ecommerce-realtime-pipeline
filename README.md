@@ -7,6 +7,9 @@ transactions as they arrive.
 
 ## Architecture
 Python Script → Eventstream → Lakehouse → Power BI
+### Eventstream Pipeline
+![Eventstream Architecture](images/event_stream_lakehouse.png)
+
 
 ### Medallion Architecture
 - Bronze: raw_orders (raw data as received)
